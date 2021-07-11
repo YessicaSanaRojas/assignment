@@ -58,9 +58,4 @@ public class Controller {
 		return new ResponseEntity<List<Teacher>>(listTeacher, HttpStatus.OK);
 	}
 	
-	@GET
-	@GetMapping("/test")
-	public ResponseEntity<String> log(){
-		return new ResponseEntity<String>("Ok", HttpStatus.OK);
-	}
 }
